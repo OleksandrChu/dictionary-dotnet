@@ -14,8 +14,7 @@ namespace word_frequency
             var dictionary = Frequency(words);
 
             Debug.Assert(dictionary["nuclear"] == 2);
-            Debug.Assert(dictionary.Count == 10);
-
+            Debug.Assert(dictionary.Count == 9);
             Show(dictionary);
         }
 
